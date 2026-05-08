@@ -1,4 +1,4 @@
-# Y.S. — froggychips
+# froggychips
 
 Bangkok · working at the edges of:
 
@@ -8,3 +8,4 @@ Bangkok · working at the edges of:
 - **Browser AI for X / Twitter** — [TweAI](https://github.com/froggychips/TweAI): Chrome extension, BYOK, no backend.
 
 Telegram: [@froggychips](https://t.me/froggychips)
+In Frog We Trust🐸

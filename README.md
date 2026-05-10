@@ -1,11 +1,27 @@
 # froggychips
 
-Bangkok · working at the edges of:
+Bangkok · working at the edges of Apple Silicon, local LLMs, and SRE automation.
 
-- **Apple Silicon + on-device LLMs** — [Froggy](https://github.com/froggychips/Froggy): MLX + Vision OCR on 8 GB Macs.
-- **SRE / agentic incident response** — [sre-ai-copilot](https://github.com/froggychips/sre-ai-copilot).
-- **Claude Code tooling** — [mcp-skills-vault](https://github.com/froggychips/mcp-skills-vault).
-- **Browser AI for X / Twitter** — [TweAI](https://github.com/froggychips/TweAI): Chrome extension, BYOK, no backend.
+## Froggy ecosystem
 
-Telegram: [@froggychips](https://t.me/froggychips)
-In Frog We Trust🐸
+Three tools built around one idea: a private local LLM daemon that knows what's on your screen.
+
+| Repo | What it does |
+|---|---|
+| [Froggy](https://github.com/froggychips/Froggy) | Local LLM + screen OCR daemon for 8 GB Apple Silicon Macs. Memory management, sliding context window, private inference. Core of the ecosystem. |
+| [froggy-mcp](https://github.com/froggychips/froggy-mcp) | MCP server — connects Claude Code to Froggy over a Unix socket. Cloud model, local eyes. |
+| [froggy-sre](https://github.com/froggychips/froggy-sre) | SRE incident response agent — feed a Kubernetes alert, get back root cause + fix + risk in one MCP call. Routes LLM calls to Froggy first. |
+
+```
+Claude Code ←—MCP—→ froggy-mcp ←—socket—→ Froggy daemon (screen, OCR, local LLM, transcripts)
+Claude Code ←—MCP—→ froggy-sre ←—socket (primary) / API (fallback)—→ incident analysis report
+```
+
+## Other projects
+
+- **[sre-ai-copilot](https://github.com/froggychips/sre-ai-copilot)** — Python + Celery cloud variant of the SRE agent; AlertManager webhook, Kubernetes backend.
+- **[mcp-skills-vault](https://github.com/froggychips/mcp-skills-vault)** — curated MCP skill definitions for Claude Code.
+- **[TweAI](https://github.com/froggychips/TweAI)** — Chrome extension for X / Twitter AI assistance. BYOK, no backend.
+
+Telegram: [@froggychips](https://t.me/froggychips)  
+In Frog We Trust 🐸

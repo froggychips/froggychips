@@ -4,11 +4,12 @@ Bangkok · working at the edges of Apple Silicon, local LLMs, and SRE automation
 
 ## Froggy ecosystem
 
-Three tools built around one idea: a private local LLM daemon that knows what's on your screen.
+Four repos built around one idea: a private local LLM daemon that knows what's on your screen.
 
 | Repo | What it does |
 |---|---|
 | [Froggy](https://github.com/froggychips/Froggy) | Local LLM + screen OCR daemon for 8 GB Apple Silicon Macs. Memory management, sliding context window, private inference. Core of the ecosystem. |
+| [FroggyKit](https://github.com/froggychips/FroggyKit) | Shared Swift package — FroggyClient IPC, used by froggy-mcp and froggy-sre. |
 | [froggy-mcp](https://github.com/froggychips/froggy-mcp) | MCP server — connects Claude Code to Froggy over a Unix socket. Cloud model, local eyes. |
 | [froggy-sre](https://github.com/froggychips/froggy-sre) | SRE incident response agent — feed a Kubernetes alert, get back root cause + fix + risk in one MCP call. Routes LLM calls to Froggy first. |
 

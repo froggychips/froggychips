@@ -21,8 +21,7 @@ Claude Code ←—MCP—→ froggy-sre ←—socket (primary) / API (fallback)�
 ## Other projects
 
 - **[sre-ai-copilot](https://github.com/froggychips/sre-ai-copilot)** — Python + Celery cloud variant of the SRE agent; AlertManager webhook, Kubernetes backend.
-- **[mcp-skills-vault](https://github.com/froggychips/mcp-skills-vault)** — curated MCP skill definitions for Claude Code.
-- **[TweAI](https://github.com/froggychips/TweAI)** — Chrome extension for X / Twitter AI assistance. BYOK, no backend.
+- **[mcp-skills-vault](https://github.com/froggychips/mcp-skills-vault)** — curated MCP skill definitions for Claude Code.-̶ ̶*̶*̶[̶T̶w̶e̶A̶I̶]̶(̶h̶t̶t̶p̶s̶:̶/̶/̶g̶i̶t̶h̶u̶b̶.̶c̶o̶m̶/̶f̶r̶o̶g̶g̶y̶c̶h̶i̶p̶s̶/̶T̶w̶e̶A̶I̶)̶*̶*̶ ̶—̶ ̶C̶h̶r̶o̶m̶e̶ ̶e̶x̶t̶e̶n̶s̶i̶o̶n̶ ̶f̶o̶r̶ ̶X̶ ̶/̶ ̶T̶w̶i̶t̶t̶e̶r̶ ̶A̶I̶ ̶a̶s̶s̶i̶s̶t̶a̶n̶c̶e̶.̶ ̶B̶Y̶O̶K̶,̶ ̶n̶o̶ ̶b̶a̶c̶k̶e̶n̶d̶.     
 
 Telegram: [@froggychips](https://t.me/froggychips)  
 In Frog We Trust 🐸

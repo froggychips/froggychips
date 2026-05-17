@@ -22,6 +22,7 @@ Claude Code ←—MCP—→ froggy-sre ←—socket (primary) / API (fallback)�
 
 - **[sre-ai-copilot](https://github.com/froggychips/sre-ai-copilot)** — Python + Celery cloud variant of the SRE agent; AlertManager webhook, Kubernetes backend.
 - **[mcp-skills-vault](https://github.com/froggychips/mcp-skills-vault)** — registry + supply-chain integrity gate for MCP servers. 110+ vetted entries with sha512/sha256/Docker-digest pins, 4 advisory feeds, offline-first. Make MCP boring.
+- **[tweai](https://github.com/froggychips/tweai)** — AI reply assistant for X (Twitter). Open-source Chrome extension that drafts replies in your voice — 8 personas, smart thread context, tweet translator. OpenAI, Grok, Gemini. BYOK, no subscription, nothing routed through a middleman.
 
 Telegram: [@froggychips](https://t.me/froggychips)  
 In Frog We Trust 🐸

@@ -1,6 +1,6 @@
 # froggychips
 
-Bangkok · working at the edges of Apple Silicon, local LLMs, and SRE automation.
+Self-taught. Day job: SRE on a live game backend that fails loudly when I'm wrong. Off-hours: getting 8 GB Macs to do more than they were sold for, plumbing Claude Code into things it probably shouldn't touch yet, and trying to make MCP boring.
 
 ## Froggy ecosystem
 
